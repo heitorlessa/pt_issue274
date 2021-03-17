@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "pt-issue274"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1pssy5gdxqcao"
+s3_prefix = "pt_issue274"
+region = "eu-west-1"
+capabilities = "CAPABILITY_IAM"
